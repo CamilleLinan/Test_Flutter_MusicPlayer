@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:musicplayer/Pages/player.dart';
+import 'package:musicplayer/Pages/player_page.dart';
 
 class HeaderSection extends StatelessWidget {
   const HeaderSection({super.key});
