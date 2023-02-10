@@ -11,14 +11,16 @@ class PlayerPage extends StatelessWidget {
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: const MyAppBarPage(),
-      body: Container(
-        color: Colors.white,
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
-          children: const [
-            ImageAuthor(),
-            PlayerControl(),
-          ],
+      body: SingleChildScrollView(
+        child: Container(
+          color: Colors.white,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: const [
+              ImageAuthor(),
+              PlayerControl(),
+            ],
+          ),
         ),
       ),
     );
