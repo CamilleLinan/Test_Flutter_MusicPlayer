@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:musicplayer/Pages/player.dart';
+import 'package:musicplayer/Pages/player_page.dart';
 
 class HeaderSection extends StatelessWidget {
   const HeaderSection({super.key});
@@ -11,7 +11,7 @@ class HeaderSection extends StatelessWidget {
       height: 500,
       decoration: const BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('ariana.png'),
+          image: AssetImage('images/ariana.png'),
           fit: BoxFit.cover,
         ),
         borderRadius: BorderRadius.only(
