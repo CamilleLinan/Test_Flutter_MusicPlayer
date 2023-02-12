@@ -11,7 +11,7 @@ class HeaderSection extends StatelessWidget {
       height: 500,
       decoration: const BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('ariana.png'),
+          image: AssetImage('images/ariana.png'),
           fit: BoxFit.cover,
         ),
         borderRadius: BorderRadius.only(

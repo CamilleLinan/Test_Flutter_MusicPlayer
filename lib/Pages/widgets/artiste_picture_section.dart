@@ -36,7 +36,7 @@ class ArtistePictureSection extends StatelessWidget {
               width: 250,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage('ariana.png'),
+                  image: const AssetImage('images/ariana.png'),
                   fit: BoxFit.cover,
                   colorFilter: ColorFilter.mode(
                       Colors.blue.withOpacity(1), BlendMode.darken),
